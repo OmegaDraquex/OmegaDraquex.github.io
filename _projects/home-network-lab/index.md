@@ -3,6 +3,7 @@ layout: post
 title: Home Network & Self-Hosted Lab
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
 card_image: /assets/u6proontheceiling.jpg
+order: 9
 skills:
 ---
 
@@ -31,8 +32,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Photos
 
-{% include image-gallery.html images="/assets/u6proontheceiling.jpg, /assets/oldphotoofmewithwaytoolongofhaironareallytallplatforminstallinganAPattheautoshop.jpg" height="400" %}
-<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/oldphotoofmewithwaytoolongofhaironareallytallplatforminstallinganAPattheautoshop.jpg" height="350" %}
+<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 
 ## Write-up
 

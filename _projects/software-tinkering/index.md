@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Software Tinkering & Early Adoption
+title: Software Tinkering
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
 card_image: /assets/hirescloseupofmmwavesensorconnectedtoverytinyesp32inmyhand.jpg
+order: 10
 skills:
 ---
 
@@ -34,8 +35,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Photos
 
-{% include image-gallery.html images="/assets/hirescloseupofmmwavesensorconnectedtoverytinyesp32inmyhand.jpg, /assets/mmwavesensormountedonwallwithpainterstapeina3dprintedhousingthatlookslikeasecuritycamuglyandonlycouldbeinaroomthatnowomanwouldapproveof.jpg" height="400" %}
-<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/mmwavesensormountedonwallwithpainterstapeina3dprintedhousingthatlookslikeasecuritycamuglyandonlycouldbeinaroomthatnowomanwouldapproveof.jpg" height="350" %}
+<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 
 ## Write-up
 

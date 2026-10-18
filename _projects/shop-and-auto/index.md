@@ -3,6 +3,7 @@ layout: post
 title: Auto Shop Tech & Vehicle Work
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
 card_image: /assets/mytransmissiononajackandmycarontheliftaboveit.jpg
+order: 6
 skills:
 ---
 
@@ -31,8 +32,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Photos
 
-{% include image-gallery.html images="/assets/mytransmissiononajackandmycarontheliftaboveit.jpg, /assets/bigvinylcutterplotter.jpg, /assets/outdoorphotoofmydadsvinylworkonacompanyswindowoldruralbuildingtreeinbackground.jpg" height="350" %}
-<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/bigvinylcutterplotter.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/outdoorphotoofmydadsvinylworkonacompanyswindowoldruralbuildingtreeinbackground.jpg" height="350" %}
+<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 
 ## Write-up
 

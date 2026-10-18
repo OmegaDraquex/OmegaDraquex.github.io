@@ -3,6 +3,7 @@ layout: post
 title: Repair, Mods & Reverse Engineering
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
 card_image: /assets/photooflaptoptakenapartwithacableonthethunderboltchipconnectedtoausbtoflashitbecauseitdiedthinkpadt480s.jpg
+order: 5
 skills:
 ---
 
@@ -32,8 +33,30 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Photos
 
-{% include image-gallery.html images="/assets/photooflaptoptakenapartwithacableonthethunderboltchipconnectedtoausbtoflashitbecauseitdiedthinkpadt480s.jpg, /assets/robinairacmachinetorndownhighresphoto.jpg, /assets/trashcanoriginalpcbdiagnosedfaultyconnector.jpg, /assets/originalgarbagecanpcbundermicroscope.jpg, /assets/closeupoftrashcanesp32pictakentorecallwhichwiresgotowhichpinafterrouted.jpg, /assets/trashcanphotooftherawboardsiusedtoreplacetheoriginalone.jpg, /assets/trashcanlidnexttopowersupplytestingphoto.jpg" height="350" %}
-<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/trashcanoriginalpcbdiagnosedfaultyconnector.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/originalgarbagecanpcbundermicroscope.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/trashcanphotooftherawboardsiusedtoreplacetheoriginalone.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/closeupoftrashcanesp32pictakentorecallwhichwiresgotowhichpinafterrouted.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/trashcanlidnexttopowersupplytestingphoto.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/robinairacmachinetorndownhighresphoto.jpg" height="350" %}
+<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 
 ## Write-up
 

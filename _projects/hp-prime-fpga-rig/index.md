@@ -3,6 +3,7 @@ layout: post
 title: HP Prime G2 FPGA Video Interface
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
 card_image: /assets/Tang9knocalculatorhdmidemo.jpg
+order: 1
 skills:
 ---
 
@@ -33,8 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Photos
 
-{% include image-gallery.html images="/assets/Tang9knocalculatorhdmidemo.jpg" height="400" %}
-<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
+<!-- No additional photos yet — the highlight image at the top of the page is the only one so far. To add more: copy a caption + image-gallery block from another project page and swap in your "/assets/filename". -->
 
 ## Write-up
 

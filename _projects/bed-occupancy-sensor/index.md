@@ -2,7 +2,8 @@
 layout: post
 title: Bed-Occupancy Sensor & Wake Accountability
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
-card_image: /assets/bedsensorpuck.png
+card_image: /assets/bedsensormain.jpg
+order: 2
 skills:
 ---
 
@@ -33,8 +34,14 @@ skills:
 
 ## Photos
 
-{% include image-gallery.html images="/assets/bedsensorpuck.png, /assets/MUSECodeTerminalScreenshot.jpg" height="400" %}
-<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/bedsensorpuck.png" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/MUSECodeTerminalScreenshot.jpg" height="350" %}
+<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 
 ## Write-up
 

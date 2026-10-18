@@ -3,6 +3,7 @@ layout: post
 title: Home Energy Monitoring & Air Quality
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
 card_image: /assets/energyrecoveryvfinishedbutnotinstalled.jpg
+order: 8
 skills:
 ---
 
@@ -33,8 +34,54 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Photos
 
-{% include image-gallery.html images="/assets/onlineervgraphicIusedtobrainstormawaytomakemyown.jpg, /assets/energyrecoveryvmyolda1combowithacatonthefrontprintingthehugehousing.jpg, /assets/energyrecoveryvwideshotbutnotfullycompleteyetalmostthoughhasfanandpowersupplyandarduinoandhousingjustneededaparttoconnectittothewindow.jpg, /assets/energyrecoveryvfinishedbutnotinstalled.jpg, /assets/EnergyRecoveryVentInsidePhoto.jpg, /assets/thermalcameraphotoofenergyrecoveryv.jpg, /assets/particlesensorsolderedtoesp32butnohousing-ondesk.jpg, /assets/CADsolidworksscreenshotofmyparticlesensorhousing.jpg, /assets/particlesensorinabrightred3dprintedhousingImadeinsolidworkswithholesformassreductionandreducedwaste.jpg, /assets/3dprintervocsensorandwindowexaust.jpg, /assets/asinglepzemina3dprintedhousingImade.jpg, /assets/closeupofrawpzemboard.jpg, /assets/pzemfor3stagetanklesswaterheaterwith3dprintedhousingImadeinsolidworks.jpg" height="350" %}
-<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/onlineervgraphicIusedtobrainstormawaytomakemyown.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/energyrecoveryvmyolda1combowithacatonthefrontprintingthehugehousing.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/energyrecoveryvwideshotbutnotfullycompleteyetalmostthoughhasfanandpowersupplyandarduinoandhousingjustneededaparttoconnectittothewindow.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/EnergyRecoveryVentInsidePhoto.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/thermalcameraphotoofenergyrecoveryv.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/particlesensorsolderedtoesp32butnohousing-ondesk.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/CADsolidworksscreenshotofmyparticlesensorhousing.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/particlesensorinabrightred3dprintedhousingImadeinsolidworkswithholesformassreductionandreducedwaste.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/3dprintervocsensorandwindowexaust.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/asinglepzemina3dprintedhousingImade.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/closeupofrawpzemboard.jpg" height="350" %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+
+{% include image-gallery.html images="/assets/pzemfor3stagetanklesswaterheaterwith3dprintedhousingImadeinsolidworks.jpg" height="350" %}
+<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 
 ## Write-up
 
