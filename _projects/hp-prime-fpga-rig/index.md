@@ -5,27 +5,40 @@ description:
 skills:
 ---
 
-<!-- TODO: one-line hook for the project card, e.g. "Decoding a calculator's live display in RTL and driving it out over HDMI." -->
+<!-- DETAILS FROM ANTHONY (Oct 2026, in progress):
+- HP Prime G2 calculator → tap the LCD bus → decode in FPGA → HDMI out → Python capture on PC
+- 13.3 MHz serial-RGB LCD bus; 320x240 RGB565 frames
+- Tang Nano 9K (Gowin GW1NR-9); PSRAM framebuffer (on-chip BSRAM too small for a 150KB frame); TMDS encoder → 640x480@60 HDMI (pixel-doubled)
+- prime_pixel.v decoder written from scratch from the protocol spec — passed full sim: 76,800 pixels, 0 value/coordinate errors at real Prime timing
+- Open-source Gowin EDA toolchain (yosys + nextpnr-gowin)
+- Status: decoder done in sim; frame buffer + HDMI output path in progress; board bring-up next -->
+
+<!-- RECRUITER QUESTIONS TO PRE-ANSWER:
+- Why tap the LCD bus instead of using the calculator's USB or a camera pointed at the screen?
+- How did you reverse-engineer the LCD protocol? (logic analyzer? docs?)
+- What was the hardest RTL bug, and how did you find it?
+- Why PSRAM instead of on-chip BRAM?
+- How do you verify the HDMI output is pixel-correct? -->
+
+<!-- MISSING / WOULD HELP:
+- Photos: tap wiring on the calculator flex, Tang Nano 9K setup, HDMI output on a monitor
+- Sim waveform screenshots
+- Is the repo public? Link it.
+- 60-90s demo video: calculator screen appearing on the monitor via your pipeline -->
 
 ## Description
 
-<!-- TODO: 2-3 sentences — what it does and why you built it. -->
+<!-- TODO: 2-3 sentences in your words. -->
 
 ## Photos
 
-<!-- TODO: drop photo files into this folder (_projects/hp-prime-fpga-rig/), then embed them like this:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %}
-Suggested shots: the Prime + Tang Nano 9K wired up, close-up of the tap wiring, HDMI output on a monitor, sim waveform screenshot. -->
+<!-- TODO: drop photo files into _projects/hp-prime-fpga-rig/, then embed:
+{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
 
 ## Write-up
 
-<!-- TODO: the story in your words —
-- The problem: what you wanted and why
-- The approach: LCD bus tap → RTL decoder → PSRAM framebuffer → HDMI
-- What went wrong / what you debugged (e.g. the prime_pixel.v sim saga)
-- Where it stands now and what's next -->
+<!-- TODO: problem → approach → what you debugged → where it stands -->
 
 ## Demo video
 
-<!-- TODO: paste your 11-digit YouTube video id below and uncomment:
-{% include youtube-video.html id="VIDEO_ID_HERE" autoplay="false" %} -->
+<!-- TODO: {% include youtube-video.html id="VIDEO_ID_HERE" autoplay="false" %} -->
