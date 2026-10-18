@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bed-Occupancy Sensor & Wake Accountability
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+description: Eager to try out new software and use it to make a fun little project, I built a system that uses Mark Zuckerburg's latest push in the AI race to give me a push out of bed. 
 card_image: /assets/bedsensormain.jpg
 order: 2
 skills:
@@ -30,18 +30,22 @@ skills:
 
 ## Description
 
-<!-- Curious to see how the new open-source Muse Gadget SDK and Muse Code functioned, I came up with a fun little project. One where Muse gets to challenge and log the actual time I stay in bed. -->
+Curious to see how the new open-source Muse Gadget SDK and Muse Code functioned, I came up with a fun little project. One where Muse gets to challenge and log the actual time I stay in bed.
 
 ## Photos
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+This is a little puck that I threw together in a few minutes in SOLIDWORKS to sit on top of a force sensor, creating a better contact between the mattress and the bed without making me the proverbial Princess and the Pea.
 
 {% include image-gallery.html images="/assets/bedsensorpuck.png" height="350" %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+This is the testing conditions, the 3D-Printed Puck on top of the force sensor on top of carpet pad I had prior to reduce noise. The ESP32 is in a gap between the bed slats so it should be fine like that.
 
 {% include image-gallery.html images="/assets/MUSECodeTerminalScreenshot.jpg" height="350" %}
 <!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
+
+A diagram of how it is wired up:
+
+{% include image-gallery.html images="/assets/bedsensordiagram.png" height="350" %}
 
 ## Write-up
 
