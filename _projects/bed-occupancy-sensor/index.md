@@ -38,7 +38,7 @@ This is a little puck that I threw together in a few minutes in SOLIDWORKS to si
 
 {% include image-gallery.html images="/assets/bedsensorpuck.png" height="350" %}
 
-This is the testing conditions, the 3D-Printed Puck on top of the force sensor on top of carpet pad I had prior to reduce noise. The ESP32 is in a gap between the bed slats so it should be fine like that.
+This is what the Muse Code interface looks like:
 
 {% include image-gallery.html images="/assets/MUSECodeTerminalScreenshot.jpg" height="350" %}
 <!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
