@@ -5,6 +5,13 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eius
 card_image: /assets/u6proontheceiling.jpg
 order: 9
 skills:
+  - MikroTik RouterOS Administration
+  - UniFi AP Deployment
+  - Structured Cabling
+  - WireGuard VPN
+  - Cloudflare Tunnels
+  - Virtualized Home Lab
+  - Self-Hosted Services
 ---
 
 <!-- DETAILS FROM ANTHONY:

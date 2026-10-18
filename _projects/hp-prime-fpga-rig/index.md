@@ -5,6 +5,13 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eius
 card_image: /assets/Tang9knocalculatorhdmidemo.jpg
 order: 1
 skills:
+  - Verilog HDL
+  - Gowin Tang Nano 9K FPGA
+  - Icarus Verilog Simulation
+  - Yosys / nextpnr Toolchain
+  - TMDS & HDMI Output
+  - PSRAM Framebuffer Design
+  - Protocol Reverse-Engineering
 ---
 
 <!-- DETAILS FROM ANTHONY (Oct 2026, in progress):

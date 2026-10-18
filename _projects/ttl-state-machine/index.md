@@ -5,6 +5,13 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eius
 card_image: /assets/FSMbreadboardfinalprojectona3dprintedholderthatholdstheboardandtheanalogdiscovery.jpg
 order: 7
 skills:
+  - Digital Logic Design
+  - Mealy FSM Design
+  - Karnaugh-Map Minimization
+  - 74-Series TTL
+  - Breadboard Prototyping
+  - Open-Collector Interfacing
+  - Logic Analyzer Verification
 ---
 
 <!-- DETAILS FROM ANTHONY (ECE 212, done):

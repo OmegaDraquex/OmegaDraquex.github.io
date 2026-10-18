@@ -5,6 +5,13 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eius
 card_image: /assets/energyrecoveryvfinishedbutnotinstalled.jpg
 order: 8
 skills:
+  - ESPHome Firmware
+  - AC Power Monitoring
+  - Air Quality Sensing (PM2.5 / VOC / CO2)
+  - Home Assistant Automation
+  - Energy Cost Optimization
+  - ERV & Ventilation Design
+  - CAD Enclosure Design
 ---
 
 <!-- DETAILS FROM ANTHONY:

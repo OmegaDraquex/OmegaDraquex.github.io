@@ -5,6 +5,13 @@ description: A collection of various projects that involve maker's equipment, li
 card_image: /assets/digitalcalipersmeasuringneodengearrod.jpg
 order: 3
 skills:
+  - Python GUI Development
+  - Pick-and-Place Workflow Automation
+  - SMT Assembly
+  - SolidWorks CAD
+  - FDM 3D Printing
+  - TPU Flexible Printing
+  - Mechanical Troubleshooting
 ---
 
 <!-- DETAILS FROM ANTHONY:

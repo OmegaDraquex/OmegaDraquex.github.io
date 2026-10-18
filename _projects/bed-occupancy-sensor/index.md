@@ -5,6 +5,14 @@ description: Eager to try out new software and use it to make a fun little proje
 card_image: /assets/bedsensormain.jpg
 order: 2
 skills:
+  - ESP32 Firmware (C)
+  - FreeRTOS
+  - Analog Sensor Conditioning
+  - KiCad PCB Design
+  - CNC PCB Milling
+  - SMT Pick-and-Place
+  - SolidWorks CAD
+  - Muse Gadgets SDK
 ---
 
 <!-- DETAILS FROM ANTHONY (Oct 2026, working):

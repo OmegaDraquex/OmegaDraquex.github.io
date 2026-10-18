@@ -5,6 +5,13 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eius
 card_image: /assets/306carextremetopview.jpg
 order: 4
 skills:
+  - MSP430 Bare-Metal C
+  - H-Bridge Motor Drivers
+  - ADC Sensor Acquisition
+  - Timer & Interrupt Programming
+  - 2S Li-Ion Power Design
+  - Battery Monitoring Circuitry
+  - SMD Soldering & Rework
 ---
 
 <!-- DETAILS FROM ANTHONY (ECE 306, in progress):

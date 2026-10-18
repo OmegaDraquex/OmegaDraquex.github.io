@@ -5,6 +5,14 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eius
 card_image: /assets/photooflaptoptakenapartwithacableonthethunderboltchipconnectedtoausbtoflashitbecauseitdiedthinkpadt480s.jpg
 order: 5
 skills:
+  - Board-Level Diagnostics
+  - Microscope Inspection
+  - SPI Flash Programming
+  - Soldering & Rework
+  - ESP32 + Motor Driver Builds
+  - Buck Converter Power Design
+  - Proxmark3 RFID Cloning
+  - Console Hardware Modding
 ---
 
 <!-- DETAILS FROM ANTHONY:

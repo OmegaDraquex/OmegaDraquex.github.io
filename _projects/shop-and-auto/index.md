@@ -5,6 +5,13 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eius
 card_image: /assets/mytransmissiononajackandmycarontheliftaboveit.jpg
 order: 6
 skills:
+  - Automotive Diagnostics
+  - Engine & Transmission Service
+  - 12V Electrical Troubleshooting
+  - A/C System Diagnostics
+  - Small-Business Wi-Fi Deployment
+  - Custom Dashboard Displays
+  - 3D-Printed Tooling
 ---
 
 <!-- DETAILS FROM ANTHONY (Hwy 42 Auto Service — family shop):

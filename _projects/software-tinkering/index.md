@@ -5,6 +5,13 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eius
 card_image: /assets/hirescloseupofmmwavesensorconnectedtoverytinyesp32inmyhand.jpg
 order: 10
 skills:
+  - LC-3 Assembly
+  - C Programming
+  - Python Scripting
+  - FOG Network Imaging
+  - mmWave Radar Sensing
+  - Local LLM Deployment
+  - Audio Transcription Pipelines
 ---
 
 <!-- DETAILS FROM ANTHONY:
