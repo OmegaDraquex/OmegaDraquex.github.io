@@ -223,7 +223,10 @@ nav .mobile-nav {
 .hero-section .headshot {
     flex: 3;
     display: flex;
-    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 24px;
 }
 
 .hero-section .headshot img {
@@ -231,6 +234,16 @@ nav .mobile-nav {
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
+}
+
+/* Mini-me figurine photo: squircle crop */
+.hero-section .headshot .mini-me {
+    width: 220px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: 65% 40%;
+    border-radius: 28%;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
 }
 
 /* NAVIGATION ARROW */
@@ -755,9 +768,15 @@ footer p {
         flex-direction: column-reverse;
         text-align: center;
     }
+    .hero-section .headshot{
+        align-items: center;
+    }
     .hero-section .headshot img{
         width: 300px;
         justify-content: center
+    }
+    .hero-section .headshot .mini-me{
+        width: 180px;
     }
 
     .hero-section .text h2 {
@@ -922,6 +941,9 @@ footer p {
    .hero-section .headshot img{
         width: 275px;
         justify-content: center
+    }
+    .hero-section .headshot .mini-me{
+        width: 160px;
     }
     
     /*SECTION 3:Skills */
