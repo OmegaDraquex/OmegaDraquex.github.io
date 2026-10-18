@@ -29,8 +29,8 @@ skills:
 
 ## Photos
 
-<!-- TODO: drop photo files into _projects/line-tracking-robot/, then embed:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
+{% include image-gallery.html images="/assets/306carextremetopview.jpg, /assets/306carcloseupbutwitha3dprintedsilvergrandmarquisshellorhaton.jpg, /assets/306-18650-2sbatterypackold-originalconfig.jpg, /assets/306carearlydaysdiagnosedbrokencapacitormicroscopepicture.jpg, /assets/306ircustomshroud.png" height="350" %}
+<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
 
 ## Write-up
 

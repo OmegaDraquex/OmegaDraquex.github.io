@@ -32,8 +32,8 @@ skills:
 
 ## Photos
 
-<!-- TODO: drop photo files into _projects/bed-occupancy-sensor/, then embed:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
+{% include image-gallery.html images="/assets/bedsensorpuck.png, /assets/MUSECodeTerminalScreenshot.jpg" height="400" %}
+<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
 
 ## Write-up
 
@@ -47,7 +47,7 @@ I did note however that the output value climbed at a diminishing rate. Somethin
 
 It wrote the firmware and flashed it on its own. I had to fish the device from under the mattress to confirm the adoption into Muse by pressing a button. Presumably, it works. Muse Gadgets do not seem to push much info to the user like Home Assistant does. I will perform more testing to determine if it is functional. So far I just set up static scheduled routines for Muse to poll the sensor and determine if I am in bed or not. In the future I want to have it take a log of it so I can see how my time in bed compares to how much sleep my smart watch believes I am getting. This project cost 31 cents in compute.
 
-![Muse Code API cost for this project](/assets/MuseAPICost.png)
+{% include image-gallery.html images="/assets/MuseAPICost.png" height="300" %}
 
 ## Demo video
 

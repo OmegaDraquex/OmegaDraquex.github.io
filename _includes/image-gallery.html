@@ -4,10 +4,17 @@
 <div class="image-gallery" style="--gallery-height: {{ gallery_height }}px;">
   {% for image_path in image_paths %}
       {% assign image_name = image_path | strip %}
+      {% assign first_char = image_name | slice: 0 %}
       {% if image_name contains 'https://' %}
           <img 
               src="{{ image_name }}"
               alt="Web image"
+              loading="lazy"
+          />
+      {% elsif first_char == '/' %}
+          <img 
+              src="{{ image_name }}"
+              alt="{{ image_name }}"
               loading="lazy"
           />
       {% else %}

@@ -32,8 +32,8 @@ skills:
 
 ## Photos
 
-<!-- TODO: drop photo files into _projects/home-energy-air/, then embed:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
+{% include image-gallery.html images="/assets/onlineervgraphicIusedtobrainstormawaytomakemyown.jpg, /assets/energyrecoveryvmyolda1combowithacatonthefrontprintingthehugehousing.jpg, /assets/energyrecoveryvwideshotbutnotfullycompleteyetalmostthoughhasfanandpowersupplyandarduinoandhousingjustneededaparttoconnectittothewindow.jpg, /assets/energyrecoveryvfinishedbutnotinstalled.jpg, /assets/EnergyRecoveryVentInsidePhoto.jpg, /assets/thermalcameraphotoofenergyrecoveryv.jpg, /assets/particlesensorsolderedtoesp32butnohousing-ondesk.jpg, /assets/CADsolidworksscreenshotofmyparticlesensorhousing.jpg, /assets/particlesensorinabrightred3dprintedhousingImadeinsolidworkswithholesformassreductionandreducedwaste.jpg, /assets/3dprintervocsensorandwindowexaust.jpg, /assets/asinglepzemina3dprintedhousingImade.jpg, /assets/closeupofrawpzemboard.jpg, /assets/pzemfor3stagetanklesswaterheaterwith3dprintedhousingImadeinsolidworks.jpg" height="350" %}
+<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
 
 ## Write-up
 

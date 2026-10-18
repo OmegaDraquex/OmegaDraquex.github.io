@@ -30,8 +30,8 @@ skills:
 
 ## Photos
 
-<!-- TODO: drop photo files into _projects/home-network-lab/, then embed:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
+{% include image-gallery.html images="/assets/u6proontheceiling.jpg, /assets/oldphotoofmewithwaytoolongofhaironareallytallplatforminstallinganAPattheautoshop.jpg" height="400" %}
+<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
 
 ## Write-up
 

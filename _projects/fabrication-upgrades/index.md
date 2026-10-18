@@ -30,8 +30,8 @@ skills:
 
 ## Photos
 
-<!-- TODO: drop photo files into _projects/fabrication-upgrades/, then embed:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
+{% include image-gallery.html images="/assets/P2SonConcreteandGymsquare.jpg, /assets/neodennewgearsolidworks.png, /assets/digitalcalipersmeasuringneodengearrod.jpg, /assets/neodenbrokengear.jpg, /assets/insideneodenfixedgearafter.jpg, /assets/neodensideofmachineallthegearsBrollshot.jpg, /assets/justapicitookofthenewerneodenyy1.jpg, /assets/olderneodenforpythonscriptprojectphotooflowrescomputermonitoroldoldmachinepicture.jpg, /assets/personalprojectqi2standCADsolidworksscreenshot.png, /assets/personalprojectqi2-3dprinted-abs-chargerstandwitha120mmnoctuafanmountedbehinditforcooling.jpg, /assets/cutephotoofa3dprintedmulticolorfigurineofmenexttoandthesameheightasaAAbattery.jpg" height="350" %}
+<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
 
 ## Write-up
 

@@ -28,8 +28,8 @@ skills:
 
 ## Photos
 
-<!-- TODO: drop photo files into _projects/ttl-state-machine/, then embed:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
+{% include image-gallery.html images="/assets/FSMbreadboardfinalprojectona3dprintedholderthatholdstheboardandtheanalogdiscovery.jpg, /assets/fsmphotoofthewaveformsdiligent1000randomizedinputtestscripttestpass1000outof1000.jpg" height="400" %}
+<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
 
 ## Write-up
 

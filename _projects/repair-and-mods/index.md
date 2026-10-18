@@ -31,8 +31,8 @@ skills:
 
 ## Photos
 
-<!-- TODO: drop photo files into _projects/repair-and-mods/, then embed:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
+{% include image-gallery.html images="/assets/photooflaptoptakenapartwithacableonthethunderboltchipconnectedtoausbtoflashitbecauseitdiedthinkpadt480s.jpg, /assets/robinairacmachinetorndownhighresphoto.jpg, /assets/trashcanoriginalpcbdiagnosedfaultyconnector.jpg, /assets/originalgarbagecanpcbundermicroscope.jpg, /assets/closeupoftrashcanesp32pictakentorecallwhichwiresgotowhichpinafterrouted.jpg, /assets/trashcanphotooftherawboardsiusedtoreplacetheoriginalone.jpg, /assets/trashcanlidnexttopowersupplytestingphoto.jpg" height="350" %}
+<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
 
 ## Write-up
 

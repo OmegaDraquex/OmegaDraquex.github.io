@@ -33,8 +33,8 @@ skills:
 
 ## Photos
 
-<!-- TODO: drop photo files into _projects/software-tinkering/, then embed:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
+{% include image-gallery.html images="/assets/hirescloseupofmmwavesensorconnectedtoverytinyesp32inmyhand.jpg, /assets/mmwavesensormountedonwallwithpainterstapeina3dprintedhousingthatlookslikeasecuritycamuglyandonlycouldbeinaroomthatnowomanwouldapproveof.jpg" height="400" %}
+<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
 
 ## Write-up
 

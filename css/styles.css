@@ -646,6 +646,12 @@ footer p {
     object-fit: contain;
     align-self: flex-start;
 }
+
+/* Safety net: any bare image in post content scales to its container */
+.post-view .content img {
+    max-width: 100%;
+    height: auto;
+}
   
 .post-view .content  a {
     color: #3498db;

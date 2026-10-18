@@ -30,8 +30,8 @@ skills:
 
 ## Photos
 
-<!-- TODO: drop photo files into _projects/shop-and-auto/, then embed:
-{% include image-gallery.html images="photo1.jpg, photo2.jpg" height="400" %} -->
+{% include image-gallery.html images="/assets/mytransmissiononajackandmycarontheliftaboveit.jpg, /assets/bigvinylcutterplotter.jpg, /assets/outdoorphotoofmydadsvinylworkonacompanyswindowoldruralbuildingtreeinbackground.jpg" height="350" %}
+<!-- To add more photos: append "/assets/filename" to the images list, separated by ", ". -->
 
 ## Write-up
 
