@@ -2,6 +2,7 @@
 layout: post
 title: Home Network & Self-Hosted Lab
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+card_image: /assets/u6proontheceiling.jpg
 skills:
 ---
 

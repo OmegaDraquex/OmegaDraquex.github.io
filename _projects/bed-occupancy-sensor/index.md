@@ -2,6 +2,7 @@
 layout: post
 title: Bed-Occupancy Sensor & Wake Accountability
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+card_image: /assets/bedsensorpuck.png
 skills:
 ---
 

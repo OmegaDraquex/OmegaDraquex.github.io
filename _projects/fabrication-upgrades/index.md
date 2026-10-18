@@ -2,6 +2,7 @@
 layout: post
 title: Printer & Fabrication Upgrades
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+card_image: /assets/P2SonConcreteandGymsquare.jpg
 skills:
 ---
 
