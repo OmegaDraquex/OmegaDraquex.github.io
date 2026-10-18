@@ -18,7 +18,7 @@ description: >- # dont remove this line. this will ignore all new lines until th
   I'm Anthony Bianchi, a Computer Engineering undergrad at NC State working in digital chip design and embedded systems. I build real hardware — FPGAs, microcontrollers, PCBs, and 3D-printed everything — and everything I build solves a real problem. Currently hunting a Summer 2027 hardware internship.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: ./assets/images/profile-image/headshot.png
 
 
 # Link your resume — TODO: upload resume PDF to assets/resume/ and set this to /assets/resume/resume.pdf
