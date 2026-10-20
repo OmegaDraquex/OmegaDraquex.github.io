@@ -5,11 +5,7 @@ description: Some of the projects, big and small, that involve physical hardware
 card_image: /assets/photooflaptoptakenapartwithacableonthethunderboltchipconnectedtoausbtoflashitbecauseitdiedthinkpadt480s.jpg
 order: 5
 skills:
-  - Microscope Inspection
-  - Soldering & Rework
   - ESP32 Projects
-  - Motor Driver Builds
-  - Buck Converter Power Design
   - Proxmark3 RFID Cloning
   - Console Hardware Modding
 ---
