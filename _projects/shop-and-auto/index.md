@@ -34,7 +34,7 @@ skills:
 
 ## Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit.
+Each summer, I worked at my parents' automotive repair shop. Most of my time was spent repairing vehicles, but every so often, I got to use my other skills to help out. 
 
 ## Photos
 
