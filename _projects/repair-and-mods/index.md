@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Repair, Mods & Reverse Engineering
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+description: Some of the projects, big and small, that involve physical hardware. From electrical appliance repair using a bit of robotics to helping out my relative and learning about RFID along the way.
 card_image: /assets/photooflaptoptakenapartwithacableonthethunderboltchipconnectedtoausbtoflashitbecauseitdiedthinkpadt480s.jpg
 order: 5
 skills:
-  - Board-Level Diagnostics
   - Microscope Inspection
-  - SPI Flash Programming
   - Soldering & Rework
-  - ESP32 + Motor Driver Builds
+  - ESP32 Projects
+  - Motor Driver Builds
   - Buck Converter Power Design
   - Proxmark3 RFID Cloning
   - Console Hardware Modding
@@ -35,45 +34,17 @@ skills:
 - The trash can saga deserves a video — it's your best "debugging under chaos" story
 - Skip the Peloton pedals (your call — you said you're not proud of it) -->
 
-## Description
+## Motorized Trash Can Repair
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit.
-
-## Photos
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+My household has quite a lot of little gadgets here and there. One of which being a motorized trash can. Prior to this project I embarked on, we had it for about six months. It takes 6 AA batteries. It uses an infrared emitter and sensor to trigger it opening, and it has an open/close capacitive button to trigger longer hold states. 
 
 {% include image-gallery.html images="/assets/trashcanoriginalpcbdiagnosedfaultyconnector.jpg" height="350" %}
+One day, the trash can stopped working. It acted like it was dead and new batteries did not bring it back to life. On a weekend I had more free-time, I opened it up and found out that the long wire run had become disconnected from the flimsy connector. I glued it back in place, and for better or for worse, I decided to tackle a complaint my parents had about it. Both open states, the infrared and the open button, stayed open for a very short amount of time, and I wanted to see if I could use a microcontroller to keep it open for longer. I soldered an ESP32 to the 'Open' button part of the board. This did not work out well. It was bouncing and triggering the open button constantly no matter what. I decided that I was getting a bit to ambitious, so I desoldered it and started to put the trash can back together. I made quite a blunder when doing so and dropped the board on a lead of my power supply. I saw a bright white flash of light and a puff of smoke and knew the board was done for. Instead of trying to fix it or order a replacement, I decided I could remake the system but better. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+Using the various boards I had from previous AliExpress impulse-buys, I put together a system that could almost replace the old one. Starting from the wall, I used an old 12V power supply, connected to a lm2596 DC-DC converter tuned and hotglued to 9V to match the original voltage of the 6 AA array. I also connected a DC to 5V board to power an ESP32. The ESP32 and 9V were connected to a TB6612FNG Motor Driver board. I also connected four or five really long wires to the ESP32. I installed all of these components in an empty compartment next to where the batteries used to go. The ESP32 was flashed and connected to my ESPHome because that is what I am most familiar with and I could easily modify and upload a new config over Wi-Fi. After a bit of tuning to the duration of the open and close states, I could manually trigger it to open and close from my server. I had to wait a little while for my VL53L0X Time of Flight sensor to come in. Once it did, it was pretty simple to integrate because I generously added and ran those long wires through the can. I had to make a modification to the port where the old infrared sensor used to be, and I ended up drilling a hole through the plastic so the sensor has line-of-sight. One code modification later and our trash can was working again, now wired and able to adjust the time it stays open. I didn't implement the buttons, and maybe if the need arises, I will do so. It has worked flawlessly ever since.
 
-{% include image-gallery.html images="/assets/originalgarbagecanpcbundermicroscope.jpg" height="350" %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
-
-{% include image-gallery.html images="/assets/trashcanphotooftherawboardsiusedtoreplacetheoriginalone.jpg" height="350" %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
-
-{% include image-gallery.html images="/assets/closeupoftrashcanesp32pictakentorecallwhichwiresgotowhichpinafterrouted.jpg" height="350" %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
-
-{% include image-gallery.html images="/assets/trashcanlidnexttopowersupplytestingphoto.jpg" height="350" %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
-
-{% include image-gallery.html images="/assets/robinairacmachinetorndownhighresphoto.jpg" height="350" %}
-<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
-
-## Write-up
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit.
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+## Console Mods
+### Software
+Every console I have owned, I have done some sort of software mod to it. My Switch, Wii U, Wii, 3DS and more have custom firmware. It was mostly to back up physical media to the console internal storage so I did not have to swap discs and cartridges. I also did it so my brother could play with mods.
+### Hardware
+I saw a video of someone adding USB C to their Nintendo 3DS portable console. This was before I went to college for engineering, so I did not have a lot of hardware experience. I used a rotary tool to cut out a pocket for a USB C female board to give it a place to set in the console's housing. I struggled through soldering and got help from my dad when the process was not working. At this point, I didn't know about cleaning the soldering tip, flux, tinning, or anything like that, so I was playing on hard mode. This experience was incredibly frustruating, but it gave me a lot of practice soldering because of the trial and error. Now, my system can charge off of either USB C or the original proprietary charging port. 
