@@ -30,7 +30,6 @@ skills:
 - Is the repo public? Link it.
 - 60-90s demo video: calculator screen appearing on the monitor via your pipeline -->
 
-## Photos
 
 <!-- No additional photos yet — the highlight image at the top of the page is the only one so far. To add more: copy a caption + image-gallery block from another project page and swap in your "/assets/filename". -->
 
