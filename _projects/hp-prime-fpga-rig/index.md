@@ -59,4 +59,5 @@ skills:
 {% include image-gallery.html images="/assets/hp11.jpg" height="350" %}
 {% include image-gallery.html images="/assets/hp12.jpg" height="350" %}
 {% include image-gallery.html images="/assets/hp13.jpg" height="350" %}
+{% include image-gallery.html images="/assets/hp14.jpg" height="350" %}
 <!-- TODO: {% include youtube-video.html id="VIDEO_ID_HERE" autoplay="false" %} -->
