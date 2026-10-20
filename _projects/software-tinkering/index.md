@@ -42,9 +42,11 @@ Back when I was in my Early College high school, I was playing around with a too
 
 {% include image-gallery.html images="/assets/kioskfunny.jpg" height="350" %}
 
+
 My final project in my first ECE class. It was to write a tic tac toe game in LC3 (actual assembly). I found this so much fun to do and being in a programming flow state felt really good. Nowadays, programming is taught as a piece of a project that can be delegated to AI, but for this project I did not use it, and I am very proud of that. 
 
 {% include image-gallery.html images="/assets/lc3.jpg" height="350" %}
+
 
 This eyesore was a result of an AliExpress impulse buy. I was recommended cheap mmWave presence detectors. I wired one up to an ESP32, flashed it to ESPHome and connected it to my HomeAssistant. I used it in an automation to turn my bedroom lights on and off depending on me being in there. With some tuning, it worked even if I did not move. I did have to keep the fans off, and it stopped working because the painter's tape gave way and I lost interest in keeping it up.
 
