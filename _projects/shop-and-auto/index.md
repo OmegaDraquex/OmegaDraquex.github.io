@@ -40,7 +40,12 @@ Each summer, I worked at my parents' automotive repair shop. Most of my time was
 
 ## Photos
 
+{% include image-gallery.html images="/assets/acmachine.jpg" height="350" %}
 We had a Robinair A/C Refrigerant Machine that was broken for five years after sucking up stop-leak from someone's car. On a visit to the shop off the clock, I opened it up, pulled every solenoid valve, and tested each with a hose, compressed air, and my new DC power supply. All of them worked, so a stuck valve was ruled out. A theory thrown out previously was that the vacuum pump was dead. I figured that the vacuum pump might have been fine since it only engages in VACUUM mode and the machine could only try RECOVER while in this broken state. Then as a last ditch effort, I put the new machine's old filter on the old machine and it worked. I tested it on personal scrap cars, and it worked flawlessly
+
+{% include image-gallery.html images="/assets/solenoid.jpg" height="350" %}
+{% include image-gallery.html images="/assets/2acmachines.jpg" height="350" %}
+Now we have a backup.
 
 {% include image-gallery.html images="/assets/bigvinylcutterplotter.jpg" height="350" %}
 My dad and I got a very large vinyl cutter on a Facebook Marketplace run. There wasn't a simple open-source software for it that we could find, so we settled on one that worked with a one time fee (most were subscriptions). My dad preferred using his 10+ year old cutting/design program on his laptop, but that device was barely holding up and it does not run on Windows 11. I set up a Windows 7 VM in VirtualBox with quality-of-life file transfer features between the client machine and the host. The program runs well there and all of his asset files he has accumulated over the years were able to be imported.
