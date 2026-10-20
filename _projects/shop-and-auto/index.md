@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Auto Shop Tech & Vehicle Work
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+description: Projects that I underwent at my family auto repair shop, mostly the ones that have nothing to do with cars.
 card_image: /assets/mytransmissiononajackandmycarontheliftaboveit.jpg
 order: 6
 skills:
