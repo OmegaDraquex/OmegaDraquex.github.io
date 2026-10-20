@@ -7,8 +7,7 @@ order: 6
 skills:
   - Automotive Diagnostics
   - Engine & Transmission Service
-  - 12V Electrical Troubleshooting
-  - A/C System Diagnostics
+  - Electrical Troubleshooting
   - Small-Business Wi-Fi Deployment
   - Custom Dashboard Displays
   - 3D-Printed Tooling
