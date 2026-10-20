@@ -11,6 +11,7 @@ skills:
   - Small-Business Wi-Fi Deployment
   - Custom Dashboard Displays
   - 3D-Printed Tooling
+  - Virtualization
 ---
 
 <!-- DETAILS FROM ANTHONY (Hwy 42 Auto Service — family shop):
@@ -42,22 +43,10 @@ Each summer, I worked at my parents' automotive repair shop. Most of my time was
 We had a Robinair A/C Refrigerant Machine that was broken for five years after sucking up stop-leak from someone's car. On a visit to the shop off the clock, I opened it up, pulled every solenoid valve, and tested each with a hose, compressed air, and my new DC power supply. All of them worked, so a stuck valve was ruled out. A theory thrown out previously was that the vacuum pump was dead. I figured that the vacuum pump might have been fine since it only engages in VACUUM mode and the machine could only try RECOVER while in this broken state. Then as a last ditch effort, I put the new machine's old filter on the old machine and it worked. I tested it on personal scrap cars, and it worked flawlessly
 
 {% include image-gallery.html images="/assets/bigvinylcutterplotter.jpg" height="350" %}
-
+My dad and I got a very large vinyl cutter on a Facebook Marketplace run. There wasn't a simple open-source software for it that we could find, so we settled on one that worked with a one time fee (most were subscriptions). My dad preferred using his 10+ year old cutting/design program on his laptop, but that device was barely holding up and it does not run on Windows 11. I set up a Windows 7 VM in VirtualBox with quality-of-life file transfer features between the client machine and the host. The program runs well there and all of his asset files he has accumulated over the years were able to be imported.
 
 
 {% include image-gallery.html images="/assets/outdoorphotoofmydadsvinylworkonacompanyswindowoldruralbuildingtreeinbackground.jpg" height="350" %}
 <!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
+A vinyl/sign side project that we put up for a local small business.
 
-
-
-## Write-up
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit.
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
