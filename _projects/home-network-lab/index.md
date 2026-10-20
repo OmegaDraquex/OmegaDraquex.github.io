@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Home Network & Self-Hosted Lab
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
+description: Using my education in Information Technology around the house and at work. 
 card_image: /assets/u6proontheceiling.jpg
 order: 9
 skills:
   - MikroTik RouterOS Administration
   - UniFi AP Deployment
-  - Structured Cabling
+  - Cable Termination
   - WireGuard VPN
   - Cloudflare Tunnels
   - Virtualized Home Lab
@@ -33,25 +33,15 @@ skills:
 - Photos of the setup (modem/router/AP placement)
 - Your domain name (optional — only if you want it public) -->
 
-## Description
+  I have always been a person who wanted to play with technology and see what it could do. I would watch a lot of nerdy computer videos on YouTube and find it all so fascinating. In middle school, I got a Raspberry Pi for my birthday and learned how to use Linux and the shell command line, years before my first Linux class. I would spin up servers like Pi-Hole DNS AD Block and make my family deal with the buggy repercussions. I learned that they highly value a fast, stable connection, so I made sure my future network projects aligned with that. I found that the original Spectrum Cable Modem Router caused a lot of slowdowns and intermittent disconnects. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit.
+  For Christmas that year, I asked for a MikroTik Router. It was $60, way less than many high end consumer ones, and it required a lot more manual set up, which I liked. I set up the firewall list and the flow control. I set up a lot of optional features, like one that blocked ads on the network in a way that is way more capable than the raspberry pi. I used it to spin up web servers so that I could access stuff away from home, like Jellyfin to watch media, calibre to add books to my kindle, Home Assistant to monitor and control automations from my phone, and other projects that I have not kept up with. I moved my server system from my Raspberry Pi to two different VirtualBox VMs because the rapsberry pi wore out an expensive SD card and it would be terribly inconvenient to lose my systems again. Later, we got a Unifi U6 Pro Access point that I helped install and programmed. I enjoyed having non-consumer grade high end hardware for the network in the house. I also helped do wired runs through the crawlspaces so that each my dad any my workstations would have reliable and fast wired connections.
 
-## Photos
+  I had to retire the MikroTik router sadly when we moved from Spectrum to T-Mobile Fiber. I enjoy the speeds, latency, and reliability of fiber, but it requires talking to a technician to allow you to use your own routing equipment, and I wouldn't want to put my family in the position where I use my own and it ends up having an issue with their systems that the stock configuration would not and not be able to easily switch back.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud.
-
+  Now I use Cloudflare for my DNS and Cloudflare tunnels to get past the ISP's CGNAT (double nat which makes setting up websites the normal way hard). Previously I used a free DuckDNS.
 {% include image-gallery.html images="/assets/oldphotoofmewithwaytoolongofhaironareallytallplatforminstallinganAPattheautoshop.jpg" height="350" %}
 <!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
+This is when I put up a old router with custom firmware up at my family automotive shop to act as a second AP to boost signal and reduce repair video and schematic look up buffering and slowdowns. I needed a haircut desperately.
 
-## Write-up
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci velit.
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
