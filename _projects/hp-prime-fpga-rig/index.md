@@ -57,6 +57,6 @@ skills:
 {% include image-gallery.html images="/assets/hp10.jpg" height="350" %}
    I was working on this write up when I noticed that the wall opposite of me was glowing white. My monitor was outputting something. I was so shocked. This garbled, repeated mess of pixels was the second most exciting thing I have seen during this project, behind actually getting the soldering done. My break is coming to an end, so the second half of my project, connecting this video output to a display capture and being able to use an LLM to control the calculator for demo and tutorial purposes, will come later.
 {% include image-gallery.html images="/assets/hp11.jpg" height="350" %}
-## Demo video
+{% include image-gallery.html images="/assets/hp12.jpg" height="350" %}
 
 <!-- TODO: {% include youtube-video.html id="VIDEO_ID_HERE" autoplay="false" %} -->
