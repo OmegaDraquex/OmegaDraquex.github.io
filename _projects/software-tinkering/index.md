@@ -34,23 +34,24 @@ skills:
 
 ## Description
 
-Trying out Minecraft Mods and growing up with a tinkerer of a father made me very curious and interested in trying out new software throughout the years. From trying out Seth Bling's Mar/IO when I was 10 to watch my computer learn how to play Mario, to getting my degree in IT, to my current journey as a Computer Engineering student, I have always had an obsession with seeing what can be done with technology.
+Trying out videogame Mods and growing up with a tinkerer of a father made me very curious and interested in trying out new software throughout the years. From trying out Seth Bling's Mar/IO when I was 10 to watch my computer learn how to play Mario, to getting my degree in IT, to my current journey as a Computer Engineering student, I have always had an obsession with seeing what can be done with technology.
 
 ## Photos
 
-Back when I was in my Early College high school, I was playing around with a tool that makes programs portable. I found out that the Dolphin Wii emulator worked with this, and I thought it would make my friends laugh to see Mario running on a printer kiosk in the lounge. It was a fun time. I got a bluetooth dongle and used a old usb hub to be able to connect all of my USB devices to it and play with actualy Wii Remotes. I do not recommend others do something like this, please respect institutional property and use it as directed. 
+
 
 {% include image-gallery.html images="/assets/kioskfunny.jpg" height="350" %}
+Back when I was in my Early College high school, I was playing around with a tool that makes programs portable. I found out that the Dolphin Wii emulator worked with this, and I thought it would make my friends laugh to see Mario running on a printer kiosk in the lounge. It was a fun time. I got a bluetooth dongle and used a old usb hub to be able to connect all of my USB devices to it and play with actualy Wii Remotes. I do not recommend others do something like this, please respect institutional property and use it as directed. 
 
 
-My final project in my first ECE class. It was to write a tic tac toe game in LC3 (actual assembly). I found this so much fun to do and being in a programming flow state felt really good. Nowadays, programming is taught as a piece of a project that can be delegated to AI, but for this project I did not use it, and I am very proud of that. 
 
 {% include image-gallery.html images="/assets/lc3.jpg" height="350" %}
+My final project in my first ECE class. It was to write a tic tac toe game in LC3 (actual assembly). I found this so much fun to do and being in a programming flow state felt really good. Nowadays, programming is taught as a piece of a project that can be delegated to AI, but for this project I did not use it, and I am very proud of that. 
 
 
-This eyesore was a result of an AliExpress impulse buy. I was recommended cheap mmWave presence detectors. I wired one up to an ESP32, flashed it to ESPHome and connected it to my HomeAssistant. I used it in an automation to turn my bedroom lights on and off depending on me being in there. With some tuning, it worked even if I did not move. I did have to keep the fans off, and it stopped working because the painter's tape gave way and I lost interest in keeping it up.
 
 {% include image-gallery.html images="/assets/mmwavesensormountedonwallwithpainterstapeina3dprintedhousingthatlookslikeasecuritycamuglyandonlycouldbeinaroomthatnowomanwouldapproveof.jpg" height="350" %}
+This eyesore was a result of an AliExpress impulse buy. I was recommended cheap mmWave presence detectors. I wired one up to an ESP32, flashed it to ESPHome and connected it to my HomeAssistant. I used it in an automation to turn my bedroom lights on and off depending on me being in there. With some tuning, it worked even if I did not move. I did have to keep the fans off, and it stopped working because the painter's tape gave way and I lost interest in keeping it up.
 <!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 
 ## Others
