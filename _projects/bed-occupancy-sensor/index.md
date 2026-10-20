@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bed-Occupancy Sensor & Wake Accountability
-description: Eager to try out new software and use it to make a fun little project, I built a system that uses Mark Zuckerburg's latest push in the AI race to give me a push out of bed. 
+description: Eager to try out new software and use it to make a fun little project, I built a system that uses Mark Zuckerberg's latest push in the AI race to give me a push out of bed.
 card_image: /assets/bedsensormain.jpg
 order: 2
 skills:
@@ -41,7 +41,7 @@ Curious to see how the new open-source Muse Gadget SDK and Muse Code functioned,
 
 
 {% include image-gallery.html images="/assets/bedsensorpuck.png" height="350" %}
-This is a little puck that I threw together in a few minutes in SOLIDWORKS to sit on top of a force sensor, creating a better contact between the mattress and the bed without making me the proverbial Princess and the Pea.
+This is a little puck that I threw together in a few minutes in SOLIDWORKS to sit on top of a force sensor, creating better contact between the mattress and the bed without making me the proverbial Princess and the Pea.
 
 
 {% include image-gallery.html images="/assets/MUSECodeTerminalScreenshot.jpg" height="350" %}
@@ -56,15 +56,15 @@ A diagram of how it is wired up.
 {% include image-gallery.html images="/assets/musemessage.png" height="350" %}
 ## Write-up
 
-The other day, the (privacy nightmare) Muse LLM Tool released by Meta had informed me that the company had yet another gift to the open source community: an open source SDK that lets developers connect whatever they want to a raspberry pi or esp32 and let Muse interact with it. I'm quite predisposed to want to play around with any new flashy hardware or software if I can make a project out of it. The LLM guided me through the process of installing Muse Code on my system. It was as simple as two commands (and entering in the credit card . . . I'll try anything once) and I was off to the races.
+The other day, the (privacy nightmare) Muse LLM Tool released by Meta informed me that the company had yet another gift for the open-source community: an open-source SDK that lets developers connect whatever they want to a Raspberry Pi or ESP32 and have Muse interact with it. I'm predisposed to explore new, flashy hardware or software if I can make a project out of it. The LLM guided me through installing Muse Code on my system. It was as simple as two commands (and entering in the credit card . . . I'll try anything once), and I was off to the races.
 
 I drafted up my vision for a device that detects whether you are physically in bed. It uses a 40 x 40mm force sensor connected to a miniature ESP32 and connects to Muse. Pretty simple, but it works quite well as a test. The agent asked me a few clarifying questions and then went to work. It wasn't fast, but it made something functional.
 
-The first output was an Arduino Sketch, primarily because it would let me test out the output in real time. It was decided that we would do an iterative process with the voltage divider resistor. I soldered the force sensor to 3.3 and pin 4 of the ESP32 and pin 4 to a 10K ohm resistor connected to ground. My first test was a good data point, but it was not a success. A light touch from my fingertips would fully saturate the sensor. I desoldered the resistor from the pin and the wire and soldered a 1k ohm. It was more promising. I used various household objects to test it: A US Quarter, AA Alkaline Battery, and my phone. My 250g phone was very close to saturating it. The rule of three held in this situation, and a 450 ohm resistor I luckily owned had done the trick. The objects had discernible outputs and it had good contrast when under the mattress with me in bed vs not.
+The first output was an Arduino Sketch, primarily because it would let me test it in real time. It was decided that we would do an iterative process with the voltage divider resistor. I soldered the force sensor to 3.3 and pin 4 of the ESP32 and pin 4 to a 10K ohm resistor connected to ground. My first test was a good data point, but it was not a success. A light touch from my fingertips would fully saturate the sensor. I desoldered the resistor from the pin and the wire and soldered a 1k ohm resistor. It was more promising. I used various household objects to test it: A US Quarter, an AA Alkaline Battery, and my phone. My 250g phone was very close to saturating it. The rule of three held in this situation, and a 450-ohm resistor I luckily owned did the trick. The objects had discernible outputs, and it had good contrast when under the mattress with me in bed vs not.
 
-I did note however that the output value climbed at a diminishing rate. Something like 1600 with just the mattress climbing to around 2000 before stopping. When I was on the mattress, it would be something like 3500 climbing to 3900. The max was like 4500 so this was perfect. I informed Muse Code of this, and it accounted for the climb by having a 60 second debounce period and setting up a dynamic threshold. The debounce also prevents the device from thinking I am doing the equivalent of jumping up and down on the bed when I am just rolling over.
+I did note, however, that the output value climbed at a diminishing rate. Something like 1600 with just the mattress, climbing to around 2000 before stopping. When I was on the mattress, it would be around 3500, climbing to 3900. The max was like 4500, so this was perfect. I informed Muse Code of this, and it accounted for the climb by having a 60-second debounce period and setting up a dynamic threshold. The debounce also prevents the device from thinking I am jumping up and down on the bed when I am just rolling over.
 
-It wrote the firmware and flashed it on its own. I had to fish the device from under the mattress to confirm the adoption into Muse by pressing a button. Presumably, it works. Muse Gadgets do not seem to push much info to the user like Home Assistant does. I will perform more testing to determine if it is functional. So far I just set up static scheduled routines for Muse to poll the sensor and determine if I am in bed or not. In the future I want to have it take a log of it so I can see how my time in bed compares to how much sleep my smart watch believes I am getting. This project cost 31 cents in compute.
+It wrote the firmware and flashed it itself. I had to fish the device from under the mattress to confirm the adoption into Muse by pressing a button. Presumably, it works. Muse Gadgets do not seem to push much info to the user as Home Assistant does. I will perform more testing to determine if it is functional. So far, I have just set up static, scheduled routines for Muse to poll the sensor and determine whether I am in bed. In the future, I want it to log my sleep so I can see how my time in bed compares to the sleep my smartwatch believes I am getting. This project cost 31 cents in compute.
 
 {% include image-gallery.html images="/assets/MuseAPICost.png" height="300" %}
 

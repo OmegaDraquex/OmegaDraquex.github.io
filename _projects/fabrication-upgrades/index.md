@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Printer & Fabrication Upgrades
-description: A collection of various projects that involve maker's equipment, like my 3D Printer and other equipment I have worked on.
+description: A collection of projects involving maker equipment, such as my 3D Printer and other equipment I have worked on.
 card_image: /assets/digitalcalipersmeasuringneodengearrod.jpg
 order: 3
 skills:
@@ -35,15 +35,15 @@ skills:
 
 ## Description
 
-A collection of various projects that involve maker's equipment, like my 3D Printer and other equipment I have worked on.
+A collection of projects involving maker equipment, such as my 3D Printer and other equipment I have worked on.
 
 ## Photos
 
-This past summer, I ran into a few projects I could not do because I had a 3D printer without an enclosure. I ended up caving and bought a P2S. One of the things I immediately noticed was that on the old hollow wooden table I had, it would shake (vibrations) and sway like crazy. This would reverberate or resonate and would be noticeably noisy to my family. I came across a solution online from CNC Kitchen where he put his printer on a concrete slab from the hardware store and put the slab on top of a flexible material and put that on the desk. I tried it and it worked spectacularly. It eliminated the noise that would travel rooms and floors. It made the machine sound much quieter, and the print quality improved somewhat. Since then, I have added active exhaust to the outdoors and a VOC sensor, and particle sensor connected to HomeAssistant to be completely sure that I am not exposing my family to something irritating or dangerous. I also added the TPU Feed Module by Bambu Lab, but I have not had much opportunity to really see the difference between that and the standard way of using TPU.
+This past summer, I ran into a few projects I could not do because I did not have a 3D printer with an enclosure. I ended up caving and bought a P2S. One of the things I immediately noticed was that on the old hollow wooden table I had, it would shake (vibrate) and sway like crazy. This would reverberate and be noticeably noisy to my family. I came across a solution online from CNC Kitchen where he put his Printer on a concrete slab from the hardware store, put the slab on top of a flexible material, and put that on the desk. I tried it, and it worked spectacularly. It eliminated the noise that would travel through rooms and floors. It made the machine sound much quieter, and the print quality improved somewhat. Since then, I have added an active exhaust to the outdoors and connected a VOC sensor and a particle sensor to HomeAssistant to be completely sure that I am not exposing my family to anything irritating or dangerous. I also added the TPU Feed Module from Bambu Lab, but I have not had much opportunity to see the difference between it and the standard way of using TPU.
 
 {% include image-gallery.html images="/assets/P2SonConcreteandGymsquare.jpg" height="350" %}
 
-While I was being trained on the Pick and Place Machine for my new ECE Makerspace job, a different student worker discussed an issue with one of the machines that he was having. The machine was failing to pull back the mylar peel sufficiently. My boss is a very busy man, and the next shift I had, I took a look at the machine. I ran the machine over and over again, trying to understand how it actually worked. I realized that the bottom gears were supposed to be way more snug on the motor shaft. I also realized that the gear has screws on it. I took a gear home to study it that night. I found out that it has a small flexible removable insert. I measured it with calipers and recreated it in SOLIDWORKS, except with a smaller diameter. I loaded (regrettably undried) TPU into my 3D Printer, set it to print a few dozen, and went to bed.
+While I was being trained on the Pick and Place Machine for my new ECE Makerspace job, another student worker discussed an issue he was having with one of the machines. The machine was failing to pull back the mylar peel sufficiently. My boss is a very busy man, and the next shift I had, I took a look at the machine. I ran the machine over and over again, trying to understand how it actually worked. I realized that the bottom gears were supposed to be way more snug on the motor shaft. I also realized the gear has screws. I took a gear home to study it that night. I found out that it has a small, flexible, removable insert. I measured it with calipers and recreated it in SOLIDWORKS, except with a smaller diameter. I loaded (regrettably undried) TPU into my 3D Printer, set it to print a few dozen, and went to bed.
 
 {% include image-gallery.html images="/assets/neodennewgearsolidworks.png" height="350" %}
 
@@ -55,7 +55,7 @@ This is what the gear looked like when I added my custom part:
 
 {% include image-gallery.html images="/assets/insideneodenfixedgearafter.jpg" height="350" %}
 
-This is the rail of gears. Quite surprisingly, this has worked and the machine now pulled the mylar with ease. Very rarely does a fix work the first time, so I will keep an eye on this.
+This is the rail of gears. Quite surprisingly, this has worked, and the machine now pulled the mylar with ease. Fixes rarely work the first time, so I will keep an eye on this.
 
 {% include image-gallery.html images="/assets/neodensideofmachineallthegearsBrollshot.jpg" height="350" %}
 
@@ -63,19 +63,19 @@ Printer Picture:
 
 {% include image-gallery.html images="/assets/justapicitookofthenewerneodenyy1.jpg" height="350" %}
 
-This the program that the older pick and place machine uses. It is very basic, and by default you would have to enter each location value manually or go through a convoluted process to import it. I tested out the new Gemini 4 Argon Task mode to create a python program with a gui that could take a weirdly formatted csv export from the machine and adjust all of the component positions based on the location of the feducials. I iterated and made it able to convert a CSV export from KiCad to the CSV format the NeoDen expects.
+This is the program the older pick-and-place machine uses. It is very basic, and by default you would have to enter each location value manually or go through a convoluted process to import it. I tested the new Gemini 4 Argon Task mode to create a Python program with a GUI that could take a weirdly formatted CSV export from the machine and adjust all component positions based on the fiducial locations. I iterated on it and made it convert a KiCad CSV export to the CSV format the NeoDen expects.
 
 {% include image-gallery.html images="/assets/olderneodenforpythonscriptprojectphotooflowrescomputermonitoroldoldmachinepicture.jpg" height="350" %}
 
-My new phone has qi2 charging support. This is what some people call MagSafe: wireless inductive charging with a magnet to optimize charge rate and reduce waste heat production. I saw how expensive qi2 charging stands were on Amazon, so I bought good-enough anker standalones, got my calipers out, and got to work. I also wanted a bit of passive cooling, just because keeping your phone cool can potentially extend the length of your battery capacity/life.
+My new phone supports Qi2 charging. This is what some people call MagSafe: wireless inductive charging with a magnet to optimize charging rate and reduce heat generation. I saw how expensive Qi2 charging stands were on Amazon, so I bought good-enough Anker standalones, took out my calipers, and got to work. I also wanted a bit of passive cooling, just because keeping your phone cool can potentially extend your battery life.
 
 {% include image-gallery.html images="/assets/personalprojectqi2standCADsolidworksscreenshot.png" height="350" %}
 
-This is the final product. The qi2 charger pushes into the slot and has just enough friction to keep it in place but let it move slightly to come meet the phone a bit. Later on, I hotglued the fan to the stand because it is unshielded, would fall down and make a terrifying noise.
+This is the final product. The Qi2 charger pushes into the slot and has just enough friction to keep it in place while allowing it to move slightly to meet the phone. Later on, I hotglued the fan to the stand because it is unshielded and would fall and make a terrifying noise.
 
 {% include image-gallery.html images="/assets/personalprojectqi2-3dprinted-abs-chargerstandwitha120mmnoctuafanmountedbehinditforcooling.jpg" height="350" %}
 
-I wanted to test out the free-to-use tool Reality Capture from Epic Games. In the past, when I used 3D scanning on iPhone and Android, I was always met with restrictions and paywalls, so I decided to trade cost for convenience. We took a video of me standing still in the back deck and I imported the video to my computer. It took a lot of trial and error to get the output to be this good. A lot of processing in RealityScan and even more processing in blender. The file has a texture map, and I want to try out the full color resin printing at some point. I am happy with this little figurine though.
+I wanted to test the free-to-use Reality Capture tool from Epic Games. In the past, when I used 3D scanning on iPhone and Android, I was always met with restrictions and paywalls, so I decided to trade cost for convenience. We took a video of me standing still on the back deck, and I imported the video to my computer. It took a lot of trial and error to get the output to be this good. A lot of processing in RealityScan and even more processing in Blender. The file has a texture map, and I want to try full-color resin printing at some point. I am happy with this little figurine though.
 
 {% include image-gallery.html images="/assets/cutephotoofa3dprintedmulticolorfigurineofmenexttoandthesameheightasaAAbattery.jpg" height="350" %}
 <!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
@@ -90,4 +90,3 @@ I wanted to test out the free-to-use tool Reality Capture from Epic Games. In th
 
 Pick and place repaired:
 {% include youtube-video.html id="skYz0m4DM_g" autoplay="false" %}
-
