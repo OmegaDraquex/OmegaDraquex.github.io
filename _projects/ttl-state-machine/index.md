@@ -34,10 +34,11 @@ My Intro to Logic Design Final Project. A Breadboard State Machine for a simple 
 
 ## Photos
 
-The benchmark that determines if the project has worked or not, running on Diligent Waveforms:
+
 
 {% include image-gallery.html images="/assets/fsmphotoofthewaveformsdiligent1000randomizedinputtestscripttestpass1000outof1000.jpg" height="350" %}
 <!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
+The benchmark that determines if the project has worked or not, running on Diligent Waveforms
 
 ## Write-up
 
