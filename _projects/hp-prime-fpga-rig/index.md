@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HP Prime G2 FPGA Video Interface
-description: A solution in search for a problem. I bought a calculator, found a cool FPGA project online for it, wanted to try it and iterate on it
+description: A solution in search for a problem. I bought a calculator, found a cool FPGA project online for it, wanted to try it and iterate on it.
 card_image: /assets/Tang9knocalculatorhdmidemo.jpg
 order: 1
 skills:
