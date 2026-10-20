@@ -68,6 +68,5 @@ It wrote the firmware and flashed it itself. I had to fish the device from under
 
 {% include image-gallery.html images="/assets/MuseAPICost.png" height="300" %}
 
-## Demo video
 
 <!-- TODO: {% include youtube-video.html id="VIDEO_ID_HERE" autoplay="false" %} -->
