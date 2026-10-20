@@ -39,6 +39,9 @@ One day, the trash can stopped working. It acted like it was dead and new batter
 
 Using the various boards I had from previous AliExpress impulse-buys, I put together a system that could almost replace the old one. Starting from the wall, I used an old 12V power supply, connected to a lm2596 DC-DC converter tuned and hotglued to 9V to match the original voltage of the 6 AA array. I also connected a DC to 5V board to power an ESP32. The ESP32 and 9V were connected to a TB6612FNG Motor Driver board. I also connected four or five really long wires to the ESP32. I installed all of these components in an empty compartment next to where the batteries used to go. The ESP32 was flashed and connected to my ESPHome because that is what I am most familiar with and I could easily modify and upload a new config over Wi-Fi. After a bit of tuning to the duration of the open and close states, I could manually trigger it to open and close from my server. I had to wait a little while for my VL53L0X Time of Flight sensor to come in. Once it did, it was pretty simple to integrate because I generously added and ran those long wires through the can. I had to make a modification to the port where the old infrared sensor used to be, and I ended up drilling a hole through the plastic so the sensor has line-of-sight. One code modification later and our trash can was working again, now wired and able to adjust the time it stays open. I didn't implement the buttons, and maybe if the need arises, I will do so. It has worked flawlessly ever since.
 
+Trash can repaired:
+{% include youtube-video.html id="3jZYCb1aRBY" autoplay="false" %}
+
 ## RFID
 My relative has a low frequency RFID key for her apartment. She sometimes loses stuff and was worried about losing access to her apartment. I used my recent experiments learning about RFID technology with my Proxmark RFID tool to make her a back up for emergencies so she didn't have to spend $230 to buy one from her complex. 
 

@@ -80,3 +80,14 @@ I wanted to test out the free-to-use tool Reality Capture from Epic Games. In th
 {% include image-gallery.html images="/assets/cutephotoofa3dprintedmulticolorfigurineofmenexttoandthesameheightasaAAbattery.jpg" height="350" %}
 <!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 
+## Demo videos
+
+3D scan of me spinning:
+{% include youtube-video.html id="JOj-P8DMcBU" autoplay="false" %}
+
+3D printed engine:
+{% include youtube-video.html id="CIXGNH5bq9I" autoplay="false" %}
+
+Pick and place repaired:
+{% include youtube-video.html id="skYz0m4DM_g" autoplay="false" %}
+

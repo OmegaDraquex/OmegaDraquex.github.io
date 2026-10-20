@@ -51,4 +51,4 @@ I 3D printed a custom shroud for my IR Sensor Board set up on my car. We were gi
 
 ## Demo video
 
-<!-- TODO: {% include youtube-video.html id="VIDEO_ID_HERE" autoplay="false" %} -->
+{% include youtube-video.html id="UGPsE9ZyQIk" autoplay="false" %}
