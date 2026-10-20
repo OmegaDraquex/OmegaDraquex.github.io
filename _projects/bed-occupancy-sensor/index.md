@@ -5,12 +5,8 @@ description: Eager to try out new software and use it to make a fun little proje
 card_image: /assets/bedsensormain.jpg
 order: 2
 skills:
-  - ESP32 Firmware (C)
-  - FreeRTOS
-  - Analog Sensor Conditioning
-  - KiCad PCB Design
-  - CNC PCB Milling
-  - SMT Pick-and-Place
+  - ESP32
+  - Analog Sensor
   - SolidWorks CAD
   - Muse Gadgets SDK
 ---
@@ -42,18 +38,19 @@ Curious to see how the new open-source Muse Gadget SDK and Muse Code functioned,
 
 ## Photos
 
-This is a little puck that I threw together in a few minutes in SOLIDWORKS to sit on top of a force sensor, creating a better contact between the mattress and the bed without making me the proverbial Princess and the Pea.
+
 
 {% include image-gallery.html images="/assets/bedsensorpuck.png" height="350" %}
+This is a little puck that I threw together in a few minutes in SOLIDWORKS to sit on top of a force sensor, creating a better contact between the mattress and the bed without making me the proverbial Princess and the Pea.
 
-This is what the Muse Code interface looks like:
 
 {% include image-gallery.html images="/assets/MUSECodeTerminalScreenshot.jpg" height="350" %}
 <!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
+This is what the Muse Code interface looks like.
 
-A diagram of how it is wired up:
 
 {% include image-gallery.html images="/assets/bedsensordiagram.png" height="350" %}
+A diagram of how it is wired up.
 
 ## Write-up
 
