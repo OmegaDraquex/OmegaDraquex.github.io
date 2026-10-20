@@ -52,6 +52,8 @@ This is what the Muse Code interface looks like.
 {% include image-gallery.html images="/assets/bedsensordiagram.png" height="350" %}
 A diagram of how it is wired up.
 
+
+{% include image-gallery.html images="/assets/musemessage.jpg" height="350" %}
 ## Write-up
 
 The other day, the (privacy nightmare) Muse LLM Tool released by Meta had informed me that the company had yet another gift to the open source community: an open source SDK that lets developers connect whatever they want to a raspberry pi or esp32 and let Muse interact with it. I'm quite predisposed to want to play around with any new flashy hardware or software if I can make a project out of it. The LLM guided me through the process of installing Muse Code on my system. It was as simple as two commands (and entering in the credit card . . . I'll try anything once) and I was off to the races.
