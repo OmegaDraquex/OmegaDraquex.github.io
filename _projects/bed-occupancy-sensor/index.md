@@ -11,27 +11,6 @@ skills:
   - Muse Gadgets SDK
 ---
 
-<!-- DETAILS FROM ANTHONY (Oct 2026, working):
-- FSR pressure sensor under the mattress (slat → FSR → 3D-printed puck → mattress) into ESP32 ADC
-- Voltage divider resistor ended at 460Ω — iterated DOWN from 10k → 1k → 460 because the divider was "bottoming out too quickly" (saturating); show the divider math
-- 3D-printed PLA puck (30mm × 7mm, chamfered) focuses force into the sensor center
-- KiCad single-sided PCB (milled on Bantam), 0805 resistor via NeoDen pick-and-place
-- Firmware: threshold + 60s below-threshold dwell before "out of bed" (roll-over immunity)
-- Built partly to test the Muse Code agent + Muse Gadgets feature (ESP32 pairs as a Muse gadget exposing a bed.occupancy command)
-- "For fun, to have a little guy challenge the reason for why I'm in bed" — scheduled 11PM bedtime / 7:15AM wake / 7:30AM escalation checks; Muse only nags when the sensor says you're off-plan
-- LIVE and in daily use -->
-
-<!-- RECRUITER QUESTIONS TO PRE-ANSWER:
-- Why did 10kΩ bottom out, and how did you land on 460Ω? (Walk through the divider math.)
-- How do you reject false triggers — rolling over, sitting on the bed, luggage on the bed?
-- Why the 60-second dwell? What breaks without it?
-- How does the Muse Gadgets integration work at a high level? -->
-
-<!-- MISSING / WOULD HELP:
-- Photos: the sensor stack, the puck, the PCB, ESP32 wiring
-- The divider schematic (even a hand sketch)
-- A screenshot of a morning accountability nudge -->
-
 ## Description
 
 Curious to see how the new open-source Muse Gadget SDK and Muse Code functioned, I came up with a fun little project. One where Muse gets to challenge and log the actual time I stay in bed.
@@ -45,7 +24,6 @@ This is a little puck that I threw together in a few minutes in SOLIDWORKS to si
 
 
 {% include image-gallery.html images="/assets/MUSECodeTerminalScreenshot.jpg" height="350" %}
-<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 This is what the Muse Code interface looks like.
 
 
@@ -67,6 +45,3 @@ I did note, however, that the output value climbed at a diminishing rate. Someth
 It wrote the firmware and flashed it itself. I had to fish the device from under the mattress to confirm the adoption into Muse by pressing a button. Presumably, it works. Muse Gadgets do not seem to push much info to the user as Home Assistant does. I will perform more testing to determine if it is functional. So far, I have just set up static, scheduled routines for Muse to poll the sensor and determine whether I am in bed. In the future, I want it to log my sleep so I can see how my time in bed compares to the sleep my smartwatch believes I am getting. This project cost 31 cents in compute.
 
 {% include image-gallery.html images="/assets/MuseAPICost.png" height="300" %}
-
-
-<!-- TODO: {% include youtube-video.html id="VIDEO_ID_HERE" autoplay="false" %} -->

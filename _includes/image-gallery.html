@@ -8,20 +8,20 @@
       {% if image_name contains 'https://' %}
           <img 
               src="{{ image_name }}"
-              alt="Web image"
+              alt="{{ page.title | default: site.name }} project image"
               loading="lazy"
           />
       {% elsif first_char == '/' %}
           <img 
               src="{{ image_name }}"
-              alt="{{ image_name }}"
+              alt="{{ page.title | default: site.name }} project image"
               loading="lazy"
           />
       {% else %}
           {% assign page_url_without_index = page.url | remove: 'index' | remove: '.html' %}
           <img 
               src="{{ page_url_without_index }}{{ image_name }}" 
-              alt="{{image_name}}"
+              alt="{{ page.title | default: site.name }} project image"
               loading="lazy"
               onerror="this.onerror=null;this.src=this.src.replace('.webp','.png').replace('.png','.webp');"
           />

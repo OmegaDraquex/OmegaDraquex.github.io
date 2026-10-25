@@ -11,23 +11,6 @@ skills:
   - Breadboard Prototyping
 ---
 
-<!-- DETAILS FROM ANTHONY (ECE 212, done):
-- 4-state synchronous Mealy state machine (vending-machine controller), designed in Logisim Evolution
-- Used "a different tool" to significantly reduce gate count by relying on multiplexers instead of discrete gates
-- Breadboarded with 74-series TTL + D flip-flops; K-map minimization for state-transition equations
-- Resolved open-collector signal float with external pull-up resistor networks
-- Verified with Analog Discovery 3 (logic analyzer): 1000 randomized-input simulated test, scored 1000/1000 -->
-
-<!-- RECRUITER QUESTIONS TO PRE-ANSWER:
-- Muxes vs. discrete gates: what was the gate count before and after?
-- How did you generate the 1000 random vectors, and what would a failure have looked like?
-- What did the open-collector float issue teach you about real hardware vs. simulation? -->
-
-<!-- MISSING / WOULD HELP:
-- Name "the different tool" used for gate reduction
-- Before/after gate counts
-- Photos: the breadboard, AD3 captures, K-maps/schematics -->
-
 ## Description
 
 My Intro to Logic Design Final Project. A Breadboard State Machine for a simple vending machine controller.
@@ -37,7 +20,6 @@ My Intro to Logic Design Final Project. A Breadboard State Machine for a simple 
 
 
 {% include image-gallery.html images="/assets/fsmphotoofthewaveformsdiligent1000randomizedinputtestscripttestpass1000outof1000.jpg" height="350" %}
-<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 The benchmark that determines if the project has worked or not, running on Digilent WaveForms
 
 ## Write-up

@@ -14,25 +14,6 @@ skills:
   - Mechanical Troubleshooting
 ---
 
-<!-- DETAILS FROM ANTHONY:
-- 3D printer noise/vibration: gym foam tile + concrete slab underneath → less noise for others in the house + "dramatically" less shaking
-- Built a TPU feed-assist module, direct-connected to his cheap Sunlu filament dryer (for printing flexibles reliably)
-- MakerSpace: fixed the mylar roller on the NEWER pick-and-place (the roller sits on the motor shaft and pulls the mylar tape; it was slipping) — diagnosed drive-shaft slippage, CAD-modeled a replacement hub in SolidWorks, printed it in TPU
-- Vibe-coded a Python GUI for the pick-and-place workflow: takes CSV export from the OLD Neoden → uses fiducial + SMD1 locations to correct all component placements (custom solution because the Neoden CSV has a weird format with varying column counts that broke existing tools); also converts KiCad placement exports into the machine's expected format
-- The validation loop: KiCad export → his program → machine → locate actual fiducial/component-1 addresses → export back → his program → machine again — "testing that and having that work was awesome"
-- Now extending it to the newer machine; his boss thinks it's cool and wants a demo + new documentation for the less-manual workflow -->
-
-<!-- RECRUITER QUESTIONS TO PRE-ANSWER:
-- The slab: how much did vibration actually drop? (Measured, or just felt?)
-- What exactly was weird about the Neoden CSV, and why did existing tools choke on it?
-- How does the fiducial correction math work at a high level?
-- Your boss wants docs — what does the new workflow look like end to end? -->
-
-<!-- MISSING / WOULD HELP:
-- Photos: printer on the slab, the TPU feed assist, the fixed roller
-- Screenshots of the Python GUI
-- Link to the code (if public) -->
-
 ## Description
 
 A collection of projects involving maker equipment, such as my 3D Printer and other equipment I have worked on.
@@ -78,7 +59,6 @@ This is the final product. The Qi2 charger pushes into the slot and has just eno
 I wanted to test the free-to-use Reality Capture tool from Epic Games. In the past, when I used 3D scanning on iPhone and Android, I was always met with restrictions and paywalls, so I decided to trade cost for convenience. We took a video of me standing still on the back deck, and I imported the video to my computer. It took a lot of trial and error to get the output to be this good. A lot of processing in RealityScan and even more processing in Blender. The file has a texture map, and I want to try full-color resin printing at some point. I am happy with this little figurine though.
 
 {% include image-gallery.html images="/assets/cutephotoofa3dprintedmulticolorfigurineofmenexttoandthesameheightasaAAbattery.jpg" height="350" %}
-<!-- To add more photos: copy a caption + image-gallery block above and swap in your "/assets/filename". -->
 
 ## Demo videos
 
