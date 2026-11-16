@@ -3,7 +3,7 @@ layout: post
 title: Autonomous Line-Tracking Robot Car
 description: A log of my NCSU Embedded Systems Experience
 card_image: /assets/306front.jpg
-order: 4
+order: 2
 skills:
   - MSP430 Bare-Metal C
   - Robotics
