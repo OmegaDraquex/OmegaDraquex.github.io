@@ -3,7 +3,7 @@ layout: post
 title: Bed-Occupancy Sensor & Wake Accountability
 description: Eager to try out new software and use it to make a fun little project, I built a system that uses Mark Zuckerberg's latest push in the AI race to give me a push out of bed.
 card_image: /assets/bedsensormain.jpg
-order: 2
+order: 4
 skills:
   - ESP32
   - Analog Sensor
