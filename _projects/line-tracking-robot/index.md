@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Autonomous Line-Tracking Robot Car
-description: A log of my NCSU Embedded Systems Experience (The Robot Car)
+description: A log of my NCSU Embedded Systems Experience
 card_image: /assets/PXL_20261115_004548369.jpg
 order: 4
 skills:
